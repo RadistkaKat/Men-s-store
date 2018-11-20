@@ -1,17 +1,22 @@
-/* main styles */
+/*//////main styles//////*/
+
 * {
     box-sizing: border-box;
     min-height: 0;
     min-width: 0;
 }
 html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-size: 18px;
     line-height: 96px;
 }
 body {
-    /* background-image: url('../Img/1\,2\ блок.jpg');
+    /* background-image: url('../Img/joshua-fuller-609241-unsplash.jpg');
     background-position: top; */
 }
 a {
@@ -36,6 +41,9 @@ a:hover {
     background-color: #2646e4;
     position: absolute;
     border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .button__link:hover span, .button__link.active span {
     background-color: #2646e4;
@@ -55,7 +63,7 @@ a:hover {
     font-size: 15px;
     font-weight: 600;
     line-height: 1;
-    padding: 13px 36px;
+    padding: 13px 48px;
     position: relative;
     /* transition: .3s; */
 }
@@ -67,12 +75,12 @@ a:hover {
     text-decoration: none !important;
 }
 
-/* header */
+/*//////1 block//////*/
+
 .header {
-    background-image: url('../img/bg--header.jpg');
+    background-image: url(../Img/joshua-fuller.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
     min-height: 620px;
     display: flex;
 }
@@ -135,20 +143,262 @@ a:hover {
     opacity: 1;
     transform: translateY(0);
 } */
-.header__text {
+
+.outerwear__text {
+    /* background-image: url(../Img/joshua-fuller-609241-unsplash.jpg); */
     flex-grow: 1;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center;
     flex-direction: column;
     padding-bottom: 127px;
     letter-spacing: -0.03em;
 }
-.header__title {
-    color: #3d3d3d;
-    font-family: MuseoSans;
-    font-size: 37px;
-    line-height: 47px;
+.outerwear__title {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 700;
     padding-bottom: 20px;
     letter-spacing: -0.03em;
+}
+.outerwear__discrube{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+}
+.outerwear__text .button{
+    background-image: url(../Img/кнопка.png);
+    cursor: pointer;
+    width: 297px;
+    height: 102px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 24px;
+}
+.outerwear__text .button:hover{
+    background-image: url(../Img/кнопка_ховер.png);
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*//////2 block//////*/
+
+.advantages {
+    min-height: 672px;
+    display: flex;
+    padding-top: 123px;
+    padding-bottom: 125px;
+    box-sizing: border-box;
+    background-color: white;
+}
+h1 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    line-height: 1;
+    color: black;
+    font-weight: 600;
+    /* letter-spacing: -0.02em; */
+}
+h3{
+    color: #2c2c2c;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+h2 {
+    color: black;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+    /* letter-spacing: -0.01em; */
+}
+.advantages__text p{
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.advantages__header {
+    text-align: center;
+}
+.advantages__header + .advantages__items {
+    padding-top: 83px;
+}
+.advantages__item {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+.advantages__icon {
+    width: 88px;
+    height: 95px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.advantages__text {
+    padding-left: 11px;
+    padding-right: 5px;
+    color: #3d3d3d;
+    font-family: MuseoSans;
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: -0.03em;
+}
+.advantages__text h2 {
+    margin: 4px 0;
+}
+.advantages__text p {
+    margin: 15px 0;
+}
+
+/* //////3 block////// */
+
+.clothes {
+    min-height: 1170px;
+    display: flex;
+    padding: 84px 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.clothes .col{
+    display: inline-block;
+}
+.clothes__text h1 {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 42px;
+}
+.clothes__text h3 {
+    color: #2d2d2d;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.info__prices{
+    display: inline-block;
+    white-space: nowrap;
+    /* text-align: center; */
+}
+.info__price__cur {
+    display: inline-block;
+    /* vertical-align: middle; */
+    font-size: 18px;
+    font-weight: 100;
+    color: black;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 27px;
+}
+.h4 span {
+    font-size: 20px;
+}
+.info__price__old {
+    padding: 0 25px;
+    display: inline-block;
+    /* vertical-align: middle; */
+    font-size: 18px;
+    font-weight: 100;
+    text-decoration: line-through;
+    color: #2c2c2c;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+}
+.h5 span{
+    font-size: 16px;
+}
+.clothes__jacket .button{
+    background-image: url(../Img/кнопка.png);
+    cursor: pointer;
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 24px;
+}
+.clothes__sheepskincoat--shade{
+    width: 508px;
+    height: 583px;
+    opacity: 0.5;
+    position: relative; 
+    float: left; 
+    width: 400px; 
+}
+.clothes__sheepskincoat--noshade{
+    overflow: hidden;
+    width: 370px;
+    height: 431px;
+    position: relative; 
+    float: left; 
+    left: -55px; 
+    top: 114px; 
+}
+.clothes__jacket--noshade{
+    overflow: hidden;
+    width: 370px;
+    height: 431px;
+    position: relative; 
+    float: left; 
+    left: -55px; 
+    top: 114px;
+}
+.clothes__jacket--shade{
+    width: 508px;
+    height: 583px;
+    opacity: 0.5;
+    position: relative; 
+    float: left; 
+    width: 400px;
+}
+.clothes__coat--shade{
+    width: 508px;
+    height: 583px;
+    opacity: 0.5;
+    position: relative; 
+    float: left; 
+    width: 400px;
+}
+.clothes__coat--noshade{
+    overflow: hidden;
+    width: 370px;
+    height: 431px;
+    position: relative; 
+    float: left; 
+    left: -55px; 
+    top: 114px;
+}
+.clothes__jacket{
+    text-align: left;
+}
+.clothes__sheepskincoat{
+    text-align: right;
+}
+.clothes__coat{
+    text-align: left;
 }

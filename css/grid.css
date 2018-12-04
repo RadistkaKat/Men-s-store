@@ -13,6 +13,20 @@
     display: flex;
     flex-wrap: wrap;
 }
+/* .row--individuality{
+    padding: 0 -50px;
+} */
+.row--individuality .col {
+    position: relative;
+    display: block;
+    overflow: hidden;
+} 
+.row--advantages .col {
+    padding: 0 19px;
+}
+/* .row--work .col {
+    padding: 0 19px;
+} */
 .row.no-gutters {
     margin-left: 0;
     margin-right: 0;
@@ -23,12 +37,16 @@
   padding-left: 0;
 }
 .col {
-    padding: 0 15px;
+    /* padding: 0 15px; */
     flex: 1;
     position: relative;
     width: 100%;
     min-height: 1px;
 }
+/* .col {
+    padding: 0 10px;
+    flex: 1;
+} */
 .col-1 {
     flex: 0 0 calc(100% / 12 * 1);
     max-width: calc(100% / 12 * 1);

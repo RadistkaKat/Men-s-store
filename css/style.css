@@ -350,7 +350,15 @@ h2 {
     line-height: 48px;
     text-align: center;
     text-decoration: none;
-    padding-top: 24px;
+    padding-top: 3px;
+}
+.clothes__jacket .button:hover{
+    background-image: url(../Img/кнопка_ховер_цены.png);
+    width: 150px;
+    height: 52px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .clothes__sheepskincoat .button{
     background-image: url(../Img/кнопка_цены.png);
@@ -364,7 +372,15 @@ h2 {
     line-height: 48px;
     text-align: center;
     text-decoration: none;
-    padding-top: 24px;
+    padding-top: 3px;
+}
+.clothes__sheepskincoat .button:hover{
+    background-image: url(../Img/кнопка_ховер_цены.png);
+    width: 150px;
+    height: 52px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .clothes__coat .button{
     background-image: url(../Img/кнопка_цены.png);
@@ -378,7 +394,15 @@ h2 {
     line-height: 48px;
     text-align: center;
     text-decoration: none;
-    padding-top: 24px;
+    padding-top: 3px;
+}
+.clothes__coat .button:hover{
+    background-image: url(../Img/кнопка_ховер_цены.png);
+    width: 150px;
+    height: 52px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .clothes__sheepskincoat--shade{
     width: 508px;
@@ -431,15 +455,25 @@ h2 {
     left: -55px; 
     top: 114px;
 }
-.clothes__jacket{
-    text-align: left;
+.clothes__jacket .info__prices{
+    float: left;
 }
-.clothes__sheepskincoat{
-    text-align: right;
+.clothes__jacket a{
+    float: left;
 }
-.clothes__coat{
-    text-align: left;
+.clothes__sheepskincoat .info__prices{
+    float: right;
 }
+.clothes__sheepskincoat a{
+    float: right;
+}
+.clothes__coat .info__prices{
+    float: left;
+}
+.clothes__coat a{
+    float: left;
+}
+
 
 /*//////4 block//////*/
 

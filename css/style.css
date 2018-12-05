@@ -339,13 +339,41 @@ h2 {
     font-size: 16px;
 }
 .clothes__jacket .button{
-    background-image: url(../Img/кнопка.png);
+    background-image: url(../Img/кнопка_цены.png);
     cursor: pointer;
     width: 150px;
     height: 52px;
     color: white;
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 24px;
+}
+.clothes__sheepskincoat .button{
+    background-image: url(../Img/кнопка_цены.png);
+    cursor: pointer;
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 24px;
+}
+.clothes__coat .button{
+    background-image: url(../Img/кнопка_цены.png);
+    cursor: pointer;
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
     font-weight: 700;
     line-height: 48px;
     text-align: center;
@@ -434,9 +462,9 @@ h2 {
 .buttons{
     text-align: center;
 }
-.fa-2x{
-    content: '';
-}
+/* .fas{
+    font-weight: 400;
+} */
 .howwework__text h1{
     text-align: center;
     font-family: 'Montserrat';
@@ -523,16 +551,17 @@ h2 {
 }
 
 /*//////5 block//////*/
+
 .individuality{
     background-image: url(../Img/background_5block.png);
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover;  */
     min-height: 620px;
     display: flex;
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
-.container h1{
+.individuality .container h1{
     text-align: center;
     padding-top: 30px; 
 }
@@ -581,4 +610,234 @@ color: black;
     font-weight: 500;
     letter-spacing: -0.99px;
     padding-left: 20px;
+}
+
+/*//////6 block//////*/
+
+.relationships{
+    max-width: 100%;
+    width: 1921px;
+    height: 560px;
+    background-color: #2646e4;
+    display: flex;
+    padding-top: 
+}
+.relationships__text{
+    width: 588;
+    height: 472px;
+    padding-right: 30px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+.row--relationships .col {
+    position: relative;
+    display: block;
+    overflow: visible;
+} 
+.relationships__pic{
+    width: 486px;
+    height: 681px;
+    float: left;
+    
+}
+.relationships__pic img{
+    position: relative;
+    top: -121px;
+    overflow: visible;
+}
+.relationships__text h2{
+    width: 50%; 
+    text-align:center; 
+    border-bottom: 2px solid white; 
+    line-height: 0.1em; 
+    margin:10px 0 20px;
+    color: white;
+    
+}
+.relationships__text h2 span{
+    color: white; 
+    padding:0 10px;
+    background: #2646e4;
+    text-align:center;
+}
+.relationships__text p{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align:center;
+}
+    
+/*//////7 block//////*/
+
+.reviews{
+    min-height: 620px;
+    display: flex;
+    padding-top: 130px;
+    /* padding-bottom: 115px; */
+    box-sizing: border-box;
+    background-color: white;
+}
+.reviews__header{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: -20px;
+}
+.reviews__text{
+    color: #2c2c2c;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center; 
+}
+.reviews__text span{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+.reviews__pic{
+    width: 212px;
+    height: 190px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 60px; 
+}
+.reviews__text img{
+    width: 176px;
+    height: 20px;
+}
+.reviews .container h1{
+    padding-top: 0px;
+    text-align: center;
+}
+
+/*//////8 block//////*/
+
+.request{
+    background-image: url(../Img/Background_8block.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    min-height: 620px;
+    display: flex;
+}
+.request__text {
+    width: 669px;
+    height: 621px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 62px;
+    letter-spacing: -0.03em;
+    float: right;
+    transition: all .2s linear;
+}
+.request__text input{
+    border: none;
+    border-radius: 20px;
+    background: #ffffff !important; // желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым
+    outline: none;
+    height: 45px;
+    width: 400px;
+    color: #777;
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+/* .request__text input[type="text"]{
+    color: ;
+} */
+.request__text h1 {
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: -0.03em;   
+}
+.request__text span{
+    color: #2646e4;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.request__text .button{
+    background-image: url(../Img/кнопка_футер.png);
+    cursor: pointer;
+    width: 190px;
+    height: 66px;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 22px;
+}
+.request__text .button:hover{
+    background-image: url(../Img/кнопка_ховер_футер.png);
+    width: 190px;
+    height: 66px;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.request .container h1{
+    padding-bottom: 55px;
+    padding-top: 70px;
+}
+
+/*//////9 block//////*/
+
+.footer {
+    background-color: white;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+}
+.footer__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 18px;
+}
+.social__item {
+    display: inline-block;
+}
+.social__item + .social__item {
+    margin-left: 11px;
+}
+.social__link {
+    color: #777;
+    padding: 5px;
+}
+.social__link:hover {
+    opacity: .8;
+}
+.number a{
+    color: #777;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 96px;
+    text-decoration: none;
 }
